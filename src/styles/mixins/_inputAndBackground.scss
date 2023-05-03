@@ -1,0 +1,128 @@
+@import "../themes/app";
+@import "../themes/themify.scss";
+@import "../mixins/text.scss";
+@import "../variables/app.scss";
+
+@mixin inputText(
+  $backgroundCategory: null,
+  $colorCategory: "text-default",
+  $textCategory: "text",
+  $padding: $spacing-x-small,
+  $margin: null,
+  $opacity: null,
+  $borderRadius: $spacing-xx-small,
+  $border: none
+) {
+  @include textMixins($textCategory);
+  @include stylesAround($padding, $margin, $border, $borderRadius);
+  background: transparent;
+  @include themify($themes) {
+    @if ($backgroundCategory) {
+      background: themed($backgroundCategory);
+    }
+    color: themed($colorCategory);
+  }
+}
+
+@mixin text-ellipsize() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin text($category: "text", $forceStyle: null) {
+  @include textMixins($category, $forceStyle: $forceStyle);
+}
+
+@mixin background($backgroundCategory: "surface", $forceStyle: null) {
+  @include themify($themes) {
+    background: themed($backgroundCategory) $forceStyle;
+  }
+}
+
+@mixin radialBackground($style: circle, $fromColor: "tables-zebra-light", $toColor: "tables-cues") {
+  @include themify($themes) {
+    background: radial-gradient($style, $fromColor 0%, $toColor 100%) !important;
+  }
+}
+
+@mixin color($colorCategory: "text-default") {
+  @include themify($themes) {
+    color: themed($colorCategory) !important;
+  }
+}
+
+@mixin fillColor($colorCategory: "surface") {
+  @include themify($themes) {
+    fill: themed($colorCategory) !important;
+  }
+}
+
+@mixin widthAndHeight($width: null, $height: null) {
+  width: $width;
+  height: $height;
+}
+
+@mixin box(
+  $backgroundCategory: "surface",
+  $padding: null,
+  $margin: null,
+  $borderRadius: $spacing-xx-small
+) {
+  @include stylesAround($padding, $margin, null, $borderRadius);
+  @include themify($themes) {
+    background: themed($backgroundCategory) !important;
+  }
+}
+
+@mixin focus {
+  @include border;
+}
+
+@mixin unFocus {
+  @include border($colorCategory: "text-default");
+}
+
+@mixin border(
+  $direction: null,
+  $width: 1px,
+  $style: solid,
+  $colorCategory: "text-secondary",
+  $forceStyle: null
+) {
+  $bordervalue: $direction;
+  @include themify($themes) {
+    @if ($direction) {
+      $bordervalue: -#{$direction};
+    }
+    border#{$bordervalue}: $width $style themed($colorCategory) $forceStyle;
+  }
+}
+
+@mixin stylesAround(
+  $padding: null,
+  $margin: null,
+  $border: null,
+  $borderRadius: $spacing-xx-small
+) {
+  padding: $padding;
+  margin: $margin;
+  border: $border;
+  border-radius: $borderRadius;
+}
+
+@mixin iconColor($colorCategory: "text-default") {
+  :global(.fill-color) {
+    pointer-events: none;
+    @include themify($themes) {
+      fill: themed($colorCategory) !important;
+    }
+  }
+}
+
+@mixin customSvgColor($colorCategory: "text-default") {
+  @include themify($themes) {
+    stroke: themed($colorCategory) !important;
+    fill: themed($colorCategory) !important;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../variables/app.scss";
+@import "../themes/colorsDark.scss";
+
+@mixin compositionIconTag() {
+  background: $color-dark-highlight-dark !important;
+  border-radius: $border-radius-chip;
+  margin-right: $spacing-x-small;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: $spacing-x-small;
+  padding: 0px $spacing-xx-small;
+}

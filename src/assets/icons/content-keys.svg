@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="icon/content-&amp;-keys" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M10.2,5 L12,6.8 L19.2,6.8 C20.19,6.8 21,7.61 21,8.6 L21,17.6 C21,18.59 20.19,19.4 19.2,19.4 L4.8,19.4 C3.81,19.4 3,18.59 3,17.6 L3.009,6.8 C3.009,5.81 3.81,5 4.8,5 L10.2,5 Z M10.1,10.7 L10.1,15.7 L14.2666667,13.2 L10.1,10.7 Z" id="Combined-Shape" class="fill-color"></path>
+        </g>
+    </g>
+</svg>

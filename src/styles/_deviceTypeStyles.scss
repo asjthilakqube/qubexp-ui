@@ -1,0 +1,21 @@
+@import "themes/colorsDark.scss";
+
+$_device_type: "none", "projector", "soundprocessor", "inputoutput";
+
+@each $type in $_device_type {
+  .deviceType-bgDark-#{$type} {
+    background: rgb(84, 84, 84) !important;
+  }
+
+  .deviceType-bg-#{$type} {
+    background: rgb(84, 84, 84) !important;
+    border: 1px solid $color-dark-button-primary;
+  }
+}
+
+.bp3-spinner .bp3-spinner-head {
+  stroke: rgba(255, 255, 255, 0.8) !important;
+}
+.bp3-spinner .bp3-spinner-track {
+  stroke: rgba(92, 112, 128, 0.7) !important;
+}

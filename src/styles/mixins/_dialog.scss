@@ -1,0 +1,16 @@
+@import "../themes/colorsDark";
+
+@mixin card($margin: 0 0.5em, $width: 100%) {
+  background: $color-dark-card;
+  border-radius: 5px;
+  width: $width !important;
+  margin: $margin;
+}
+
+@mixin popup() {
+  background: $color-dark-pop-up !important;
+}
+
+@mixin highlight() {
+  background: $color-dark-highlight !important;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <g id="icon/search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/grey/search-inactive">
+            <rect id="Rectangle-7" x="0" y="0" width="24" height="24"></rect>
+            <path d="M10.9362745,16.8871166 C12.2573529,16.8871166 13.4926471,16.4404908 14.4877451,15.7018405 L17.7818627,19 L19,17.7803681 L15.7058824,14.4993865 C16.4436275,13.5030675 16.8897059,12.2834356 16.8897059,10.9435583 C16.8897059,7.66257669 14.2303922,5 10.9534314,5 C7.67647059,5 5,7.6797546 5,10.9435583 C5,14.207362 7.67647059,16.8871166 10.9362745,16.8871166 Z M11.0375001,6.75 C13.4078253,6.75 15.3250002,8.60848577 15.3250002,10.90625 C15.3250002,13.2040142 13.4078253,15.0625 11.0375001,15.0625 C8.66717483,15.0625 6.75,13.2040142 6.75,10.90625 C6.75,8.60848577 8.6846037,6.75 11.0375001,6.75 Z" id="Shape" class="fill-color"></path>
+        </g>
+    </g>
+</svg>

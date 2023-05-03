@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-Regular.ttf");
+  src: local("Noto Sans Regular"), local("NotoSans-Regular"),
+    url("../assets/fonts/noto-sans/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-Bold.ttf");
+  src: local("Noto Sans Bold"), local("NotoSans-Bold"),
+    url("../assets/fonts/noto-sans/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-SemiBold.ttf");
+  src: local("Noto Sans SemiBold"), local("NotoSans-SemiBold"),
+    url("../assets/fonts/noto-sans/NotoSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-Italic.ttf");
+  src: local("Noto Sans Italic"), local("NotoSans-Italic"),
+    url("../assets/fonts/noto-sans/NotoSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-BoldItalic.ttf");
+  src: local("Noto Sans BoldItalic"), local("NotoSans-BoldItalic"),
+    url("../assets/fonts/noto-sans/NotoSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/fonts/noto-sans/NotoSans-SemiBoldItalic.ttf");
+  src: local("Noto Sans SemiBoldItalic"), local("NotoSans-SemiBoldItalic"),
+    url("../assets/fonts/noto-sans/NotoSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+// ROBOTO MONO
+
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Mono Italic"), local("RobotoMono-Italic"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-Italic.ttf) format("truetype");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Roboto Mono Medium Italic"), local("RobotoMono-MediumItalic"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-MediumItalic.ttf) format("truetype");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Mono Bold Italic"), local("RobotoMono-BoldItalic"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf) format("truetype");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-Regular.ttf) format("truetype");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Roboto Mono Medium"), local("RobotoMono-Medium"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-Medium.ttf) format("truetype");
+}
+/* latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Mono Bold"), local("RobotoMono-Bold"),
+    url(../assets/fonts/Roboto_Mono/RobotoMono-Bold.ttf) format("truetype");
+}

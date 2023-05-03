@@ -1,0 +1,49 @@
+@import "themes/colorsDark.scss";
+
+$_composition_type: "advertisements", "advertisement", "feature", "teaser", "trailer", "policy",
+  "trailer", "others", "none", "transitional", "short", "default", "test";
+$_composition_color: (
+  "advertisements": $color-dark-purple-adv-mid,
+  "advertisement": $color-dark-purple-adv-mid,
+  "feature": $color-dark-orange-ftr-mid,
+  "short": $color-dark-mild-green-pol-mid,
+  "teaser": $color-dark-pink-tsr-mid,
+  "policy": rgba(255, 106, 0, 1),
+  "trailers": $color-dark-blue-tlr-mid,
+  "trailer": $color-dark-blue-tlr-mid,
+  "transitional": $color-dark-blue-tlr-mid,
+  "others": $color-dark-text-secondary,
+  "none": $color-dark-button-primary,
+  "default": $color-dark-text-secondary,
+  "test": $color-dark-button-primary,
+);
+
+$_composition_bg_color: (
+  "advertisements": $color-dark-purple-adv-dark,
+  "advertisement": $color-dark-purple-adv-dark,
+  "feature": $color-dark-orange-ftr-dark,
+  "short": $color-dark-mild-green-pol-dark,
+  "teaser": $color-dark-pink-tsr-dark,
+  "policy": rgba(255, 106, 0, 1),
+  "trailers": $color-dark-blue-tlr-dark,
+  "trailer": $color-dark-blue-tlr-dark,
+  "transitional": $color-dark-blue-tlr-dark,
+  "others": $color-dark-text-secondary,
+  "none": rgb(84, 84, 84),
+  "default": $color-dark-text-secondary,
+);
+
+@each $type in $_composition_type {
+  .composition-#{$type} {
+    border-left: 4px solid map_get($_composition_color, $type) !important;
+  }
+
+  .composition-bgDark-#{$type} {
+    background: map_get($_composition_color, $type) !important;
+  }
+
+  .composition-bg-#{$type} {
+    background: map_get($_composition_bg_color, $type) !important;
+    border: 1px solid map_get($_composition_color, $type);
+  }
+}

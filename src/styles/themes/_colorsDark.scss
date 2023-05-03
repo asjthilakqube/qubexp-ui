@@ -1,0 +1,112 @@
+// Dark Theme
+$color-dark-surface: #1a1a1a;
+$color-dark-card: #262626;
+$color-dark-pop-up: #333333;
+$color-dark-highlight: rgba(166, 166, 166, 0.1);
+$color-dark-highlight-dark: rgba(0, 0, 0, 0.36);
+$color-dark-separator: rgba(165, 165, 165, 0.1);
+
+// Button
+$color-dark-button-secondary: rgba(166, 166, 166, 0.1);
+$color-dark-button-secondary-hover: rgba(166, 166, 166, 0.2);
+$color-dark-button-primary: #dadce6;
+$color-dark-button-primary-hover: #dadce6;
+$color-dark-button-blue: #0d9aff;
+
+// Switch
+$color-dark-button-inactive: rgba(165, 165, 165, 0.1);
+$color-dark-button-active: rgba(165, 165, 165, 0.54);
+
+// Tables
+$color-dark-tables-header: #2d2d2e;
+$color-dark-tables-zebra-light: #212121;
+$color-dark-tables-zebra-dark: #1a1a1a;
+$color-dark-tables-cues: #121212;
+
+// textBackgroundColor
+$color-dark-background-text-default: #1a1a1a;
+$color-dark-background-text-secondary: rgba(218, 220, 230, 0.1);
+$color-dark-background-text-primary: #1a1a1a;
+$color-dark-background-text-disabled: rgba(255, 255, 255, 0.3);
+
+// textColor
+$color-dark-text-default: #dadce6;
+$color-dark-text-secondary: #81858c;
+$color-dark-text-primary: #1a1a1a;
+$color-dark-text-disabled: rgba(255, 255, 255, 0.3);
+
+// alerts
+$color-dark-alert-error: #a31026;
+$color-dark-alert-warning: #db7114;
+$color-dark-alert-success: #81858c;
+$color-dark-warning-icon: #ff9f0a;
+
+// purple
+$color-dark-purple-adv-mid: #8e00e6;
+$color-dark-purple-adv-dark: #390f53;
+$color-dark-purple-extreme-adv-dark: #260a37;
+
+// orange
+$color-dark-orange-ftr-mid: #d94c0b;
+$color-dark-orange-ftr-dark: #62260a;
+$color-dark-orange-ftr-extreme-dark: #411907;
+
+// mildGreen
+$color-dark-mild-green-pol-mid: #6ca600;
+$color-dark-mild-green-pol-dark: #19441b;
+$color-dark-mild-green-pol-extreme-dark: #411907;
+
+// green
+$color-dark-green-shr-mid: #00821e;
+$color-dark-green-text: #23b339;
+$color-dark-green-shr-dark: #002a03;
+$color-dark-green-shr-extreme-dark: #001d02;
+$color-dark-icon-green: #09b23a;
+
+// blue
+$color-dark-blue-tlr-mid: #0079db;
+$color-dark-blue-tlr-dark: #00204d;
+$color-dark-blue-tlr-extreme-dark: #001633;
+
+// pink
+$color-dark-pink-tsr-mid: #e02274;
+$color-dark-pink-tsr-dark: #5d0b2f;
+$color-dark-pink-tsr-extreme-dark: #3e071f;
+
+//dnd-placeholder
+$color-dark-placeholderBorder: #abc;
+
+//menu
+$color-dark-menu-hover: #3e3e3e;
+
+// Filter Tags
+$color-dark-filter-tag: #3a3a3c;
+$color-dark-filter-tag-close: #737374;
+$color-dark-filter-clear-all-bg: #5f121e;
+$color-dark-filter-clear-all-text: #b59197;
+
+// Playback status Colors
+
+$color-dark-alert: #cc4033;
+$color-dark-delete: #ff453a;
+$color-dark-warning: #fc9a19;
+$color-dark-success: #008f26;
+$color-dark-divider: #404040;
+
+// Failures
+$color-staus-failed-background: rgba(163, 16, 38, 0.15);
+
+$color-dark-resizer-drag-handle: #2b2b2b;
+
+$color-dark-split-bar-background: radial-gradient(
+  circle,
+  $color-dark-tables-zebra-light 0%,
+  #121212 100%
+);
+
+$color-dark-skeleton-background: linear-gradient(
+  60deg,
+  $color-dark-surface 0px,
+  $color-dark-card 30px,
+  $color-dark-surface 80px
+);

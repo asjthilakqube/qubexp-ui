@@ -1,0 +1,174 @@
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "../../variables/app.scss";
+@import "../../mixins/typography";
+@import "../../mixins/mediaQuery.scss";
+@import "../../common.scss";
+@import "../../fonts.scss";
+@import "../../override.scss";
+@import "../../mixins/text";
+@import "../../mixins/inputAndBackground";
+
+html {
+  @include mq(small) {
+    font-size: 14px !important;
+  }
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $theme-primary;
+  padding: 0px;
+  font-family: $font-family;
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+:focus {
+  outline: none !important;
+}
+.child-container {
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding: 0 $spacing-xx-small;
+  overflow-x: hidden;
+
+  @include mq(small) {
+    width: 100%;
+  }
+}
+
+#layout {
+  display: flex;
+  flex: 1;
+  overflow-x: hidden;
+
+  @include mq(large) {
+    flex-direction: row !important;
+  }
+
+  @include mq(medium) {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+  }
+
+  @include mq(small) {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.children {
+  display: flex;
+  flex: 1;
+  padding: 0 $spacing-small;
+  height: 90vh;
+  @include mq(large) {
+    padding: 0 $spacing-large;
+  }
+  @include mq(medium) {
+    padding: 0 $spacing-large;
+  }
+
+  :global {
+    .bp3-tab-list {
+      @include border($direction: bottom, $colorCategory: "separator");
+      .bp3-tab {
+        @include color("text-secondary");
+        @include text;
+        padding-bottom: $spacing-x-small;
+      }
+
+      .bp3-tab[aria-selected="true"] {
+        @include color("text-default");
+        @include text;
+        font-weight: 600;
+      }
+
+      .bp3-tab-indicator {
+        @include border($colorCategory: "text-default", $width: 1.5px);
+      }
+    }
+
+    .splitter {
+      width: 100%;
+    }
+
+    .handle-bar {
+      width: 16px;
+      margin: 0 $spacing-xxx-small;
+      align-items: flex-start;
+      background: radial-gradient(circle, $color-dark-tables-zebra-light 0%, #121212 100%);
+    }
+
+    .handle-bar .handle-bar_drag {
+      width: 9px;
+      height: 36px;
+      margin-top: $spacing-medium;
+      border-right: 3px solid #2b2b2b;
+      border-left: 3px solid #2b2b2b;
+    }
+  }
+}
+
+.menuItemContainer {
+  @include mq(small) {
+    margin-top: 0;
+  }
+
+  @include mq(medium) {
+    margin-top: 0;
+  }
+
+  @include mq(large) {
+    margin-top: $spacing-x-small;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+.apsaraIcon {
+  width: 5em;
+  padding: $spacing-small;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.apsaraIconExpanded {
+  margin: 0 $spacing-medium;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1;
+  height: 2em;
+  @include mq(large) {
+    height: 100%;
+  }
+  svg {
+    width: 183px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 1.5em;
+
+    @include mq(large) {
+      padding: 1em 0.25em $spacing-small 0.25em;
+      max-width: 100%;
+      max-height: 100%;
+      height: 100%;
+    }
+  }
+}

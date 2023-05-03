@@ -1,0 +1,26 @@
+@import "app.scss";
+// @import "../themes/colorsDark.scss";
+// @import "../mixins/typography.scss";
+
+$wb-font-family: $font-family, sans-serif;
+$wb-heading-text-color: #919496;
+$wb-primary-text-color: $color-dark-text-default;
+$wb-border-color: $color-dark-separator;
+$wb-expand-table-cell-border-color: $color-dark-separator;
+$wb-font-size-body-small: $font-size-body;
+$wb-border-width: 0.5px;
+$wb-cell-border-width: 0 0.5px 0 0.5px;
+$wb-header-border-width: 0.5px;
+$wb-striped-background-color: $color-dark-tables-zebra-light;
+$wb-background-color: $color-dark-tables-zebra-dark;
+$wb-heading-background-color: $color-dark-tables-header;
+$wb-cell-padding: $spacing-small $spacing-small;
+$wb-text-color: #919496;
+$wb-checkbox-color: $color-dark-text-secondary;
+$wb-header-padding: $spacing-x-small $spacing-small;
+$wb-resizer-icon-color: $color-dark-button-secondary-hover;
+$wb-expanded-child-background-color: $color-dark-tables-zebra-dark;
+$wb-cell-expand-icon-width: 2.796rem;
+$wb-checkbox-order: 0;
+$wb-active-color: white;
+$wb-pagination-item-highlight-color: rgba(166, 166, 166, 0.1);

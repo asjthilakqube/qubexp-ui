@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="36px" viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo/collapsed" transform="translate(-16.000000, 0.000000)" fill-rule="nonzero">
+            <g id="Logo" transform="translate(16.000000, 0.000000)">
+                <rect id="Rectangle-7" fill="#1A1A1A" x="0" y="0" width="40" height="36" rx="4"></rect>
+                <path d="M22.3759766,23 L21.6513672,20.6210938 L18.0078125,20.6210938 L17.2832031,23 L15,23 L18.5273438,12.9648438 L21.1181641,12.9648438 L24.6591797,23 L22.3759766,23 Z M21.1455078,18.84375 C20.4755826,16.6881403 20.0984705,15.4690769 20.0141602,15.1865234 C19.9298498,14.9039699 19.8694663,14.6806649 19.8330078,14.5166016 C19.6826164,15.0999378 19.2519567,16.5423062 18.5410156,18.84375 L21.1455078,18.84375 Z" id="A" fill="#FFFFFF" class="fill-color"></path>
+            </g>
+        </g>
+    </g>
+</svg>

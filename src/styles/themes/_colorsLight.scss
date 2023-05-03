@@ -1,0 +1,86 @@
+// Light Theme
+$color-light-surface: #a0a0a0;
+$color-light-card: #ffffff;
+$color-light-pop-up: #ffffff;
+$color-light-highlight: rgba (26, 26, 26, 0.1);
+
+// Button
+$color-light-button-secondary: rgba(166, 166, 166, 0.36);
+$color-light-button-secondary-hover: rgba(255, 255, 255, 0.1);
+$color-light-button-primary: #dadce6;
+$color-light-button-primary-hover: #dadce6;
+$color-light-button-blue: #0d9aff;
+
+// Tables
+$color-light-tables-header: #cccccc;
+$color-light-tables-zebra-light: #ffffff;
+$color-light-tables-zebra-dark: #f9f9fb;
+$color-light-tables-cues: #e0e0e0;
+
+// Text Background Color
+$color-light-background-text-default: #1a1a1a;
+$color-light-background-text-secondary: #81858c;
+$color-light-background-text-primary: #a0a0a0;
+$color-light-background-text-disabled: rgba(255, 255, 255, 0.3);
+
+// Text Color
+$color-light-text-default: #1a1a1a;
+$color-light-text-secondary: #81858c;
+$color-light-text-primary: #a0a0a0;
+$color-light-text-disabled: rgba(255, 255, 255, 0.3);
+
+// Alerts
+$color-light-alert-error: #a31026;
+$color-light-alert-warning: #db7114;
+$color-light-alert-success: #81858c;
+$color-light-warning-icon: #ff9f0a;
+
+// Purple
+$color-light-purple-adv-mid: #8e00e6;
+$color-light-purple-adv-pale: #ae84c8;
+$color-light-purple-extreme-adv-pale: #c9adda;
+
+// Orange
+$color-light-orange-ftr-mid: #d94c0b;
+$color-light-orange-ftr-pale: #d79b7f;
+$color-light-orange-ftr-extreme-pale: #e4bca9;
+
+// Mild Green
+$color-light-mild-green-pol-mid: #6ca600;
+$color-light-mild-green-pol-pale: #8eb990;
+$color-light-mild-green-pol-extreme-pale: #b4d0b5;
+
+// Green
+$color-light-green-shr-mid: #00821e;
+$color-light-green-text: #23b339;
+$color-light-green-shr-pale: #75a078;
+$color-light-green-shr-extreme-pale: #a3c0a5;
+
+// Blue
+$color-light-blue-tlr-mid: #0079db;
+$color-light-blue-tlr-pale: #7595c2;
+$color-light-blue-tlr-extreme-pale: #a3b9d6;
+
+// Pink
+$color-light-pink-tsr-mid: #e02274;
+$color-light-pink-tsr-pale: #d280a4;
+$color-light-pink-tsr-extreme-pale: #e1aac2;
+
+$color-light-delete: #ff453a;
+$color-light-resizer-drag-handle: #2b2b2b;
+
+$color-light-split-bar-background: radial-gradient(
+  circle,
+  $color-dark-tables-zebra-light 0%,
+  #121212 100%
+);
+
+//dnd-placeholder
+$color-light-placeholderBorder: #abc;
+
+$color-light-skeleton-background: linear-gradient(
+  60deg,
+  $color-light-surface 0px,
+  $color-dark-card 30px,
+  $color-light-surface 80px
+);

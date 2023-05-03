@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <g id="icon/folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shape">
+            <polygon points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M18.8571429,6.57142857 L12,6.57142857 L10.2857143,4.85714286 L5.14285714,4.85714286 C4.2,4.85714286 3.43714286,5.62857143 3.43714286,6.57142857 L3.42857143,16.8571429 C3.42857143,17.8 4.2,18.5714286 5.14285714,18.5714286 L18.8571429,18.5714286 C19.8,18.5714286 20.5714286,17.8 20.5714286,16.8571429 L20.5714286,8.28571429 C20.5714286,7.34285714 19.8,6.57142857 18.8571429,6.57142857 Z M18.8571429,16.8571429 L5.14285714,16.8571429 L5.14285714,8.28571429 L18.8571429,8.28571429 L18.8571429,16.8571429 Z" class="fill-color"></path>
+        </g>
+    </g>
+</svg>

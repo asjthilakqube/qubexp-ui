@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NotoSans-Italic";
+  src: local("NotoSans-Italic"), url(./fonts/NotoSans-Italic.ttf) format("ttf");
+}
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: local("NotoSans-Medium"), url(./fonts/NotoSans-Medium.ttf) format("ttf");
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: local("NotoSans-Regular"), url(./fonts/NotoSans-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "NotoSansBold";
+  font-style: normal;
+  font-weight: 100;
+  src: local("NotoSans-Bold"), local("NotoSansBold"), url(./fonts/NotoSans-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "NotoSans-SemiBold";
+  src: local("NotoSans-SemiBold"), url(./fonts/NotoSans-SemiBold.ttf) format("ttf");
+}

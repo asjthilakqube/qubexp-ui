@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <g id="icon/ingest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) translate(0.000000, -0.000000)" id="Shape">
+            <polygon points="0 -3.55271368e-15 24 -3.55271368e-15 24 24 0 24"></polygon>
+            <path d="M16.59,10 L15,10 L15,5 C15,4.45 14.55,4 14,4 L10,4 C9.45,4 9,4.45 9,5 L9,10 L7.41,10 C6.52,10 6.07,11.08 6.7,11.71 L11.29,16.3 C11.68,16.69 12.31,16.69 12.7,16.3 L17.29,11.71 C17.92,11.08 17.48,10 16.59,10 Z M5,19 C5,19.55 5.45,20 6,20 L18,20 C18.55,20 19,19.55 19,19 C19,18.45 18.55,18 18,18 L6,18 C5.45,18 5,18.45 5,19 Z" class="fill-color"></path>
+        </g>
+    </g>
+</svg>

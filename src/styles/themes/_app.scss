@@ -1,0 +1,7 @@
+@import "darkThemeMap.scss";
+@import "lightThemeMap.scss";
+
+$themes: (
+  dark: $dark,
+  light: $light,
+);

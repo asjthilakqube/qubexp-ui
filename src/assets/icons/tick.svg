@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-123" points="9.52302332 13.9942013 6.53153786 11.1816454 5 12.7973479 9.44640318 17.2437511 19 7.69015427 17.4380083 6"></polygon>
+    </defs>
+    <g id="icon/tick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-123"></use>
+            </mask>
+            <use id="Mask" class="fill-color" xlink:href="#path-123"></use>
+        </g>
+    </g>
+</svg>

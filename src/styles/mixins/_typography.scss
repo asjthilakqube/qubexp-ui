@@ -1,0 +1,107 @@
+@import "../themes/colorsDark";
+@import "../variables/app";
+
+@mixin title($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-title;
+  line-height: $line-height-title;
+  font-weight: $font-weight-bold;
+  color: $textColor;
+}
+
+@mixin titleSmall($textColor: $color-dark-text-default) {
+  font-family: $font-family !important;
+  font-size: $font-size-title-small !important;
+  line-height: $line-height-title-small !important;
+  font-weight: $font-weight-semi-bold !important;
+  color: $textColor !important;
+}
+
+@mixin subTitle($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-sub-title;
+  line-height: $line-height-sub-title;
+  font-weight: $font-weight-bold;
+  color: $textColor;
+}
+
+@mixin subTitleSmall($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-sub-title-small;
+  line-height: $line-height-sub-title-small;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+@mixin text($textColor: $color-dark-text-default) {
+  font-family: $font-family !important;
+  font-size: $font-size-text !important;
+  line-height: $line-height-text !important;
+  font-weight: normal !important;
+  color: $textColor !important;
+}
+
+@mixin textSmall($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-text-small;
+  line-height: $line-height-text-small;
+  font-weight: normal;
+  color: $textColor;
+}
+
+@mixin tags($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-tags;
+  line-height: $line-height-tags;
+  font-weight: $font-weight-semi-bold;
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+@mixin caption($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-text-small;
+  line-height: $line-height-text-small;
+  font-style: italic;
+  color: $textColor;
+}
+
+@mixin button($textColor: $color-dark-text-default) {
+  font-family: $font-family !important;
+  font-size: $font-size-button;
+  line-height: $line-height-button;
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+@mixin buttonSmall($textColor: $color-dark-text-default) {
+  font-family: $font-family;
+  font-size: $font-size-button-small;
+  line-height: $line-height-button-small;
+  font-weight: $font-weight-semi-bold;
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+@mixin numericImportant($textColor: $color-dark-text-default) {
+  font-family: $font-family-roboto-mono;
+  font-size: $font-size-numeric-important;
+  line-height: $line-height-numeric-important;
+  font-weight: $font-weight-bold;
+  color: $textColor;
+}
+
+@mixin numeric($textColor: $color-dark-text-default) {
+  font-family: $font-family-roboto-mono;
+  font-size: $font-size-numeric;
+  line-height: $line-height-numeric;
+  font-weight: $font-weight-regular;
+  color: $textColor;
+}
+
+@mixin text-ellipsize() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,32 @@
+@import "themes/colorsDark.scss";
+@import "variables/app.scss";
+@import "mixins/inputAndBackground.scss";
+
+$_ingest_status_type: "copying", "verifying", "verification_pending", "queued", "ingested",
+  "ingesting", "cancelled", "suspended", "ok", "succeeded", "failed", "unknown";
+
+$_ingest_status_text_color: (
+  "copying": $color-dark-green-text,
+  "verifying": $color-dark-warning,
+  "verification_pending": $color-dark-orange-ftr-dark,
+  "queued": $color-dark-mild-green-pol-dark,
+  "short": $color-dark-mild-green-pol-dark,
+  "ingested": $color-dark-pink-tsr-dark,
+  "cancelled": $color-dark-orange-ftr-mid,
+  "suspended": $color-dark-delete,
+  "ingesting": $color-dark-green-text,
+  "failed": $color-dark-delete,
+  "ok": "text-secondary",
+  "succeeded": $color-dark-green-text,
+  "unknown": $color-dark-delete,
+);
+
+@each $type in $_ingest_status_type {
+  .ingest_status-#{$type} {
+    background: $color-dark-highlight-dark !important;
+    box-shadow: inset 0 0 0 99999px rgba(16, 16, 16, 0.9);
+    font-weight: $font-weight-semi-bold;
+    border-radius: $border-radius-chip;
+    color: map_get($_ingest_status_text_color, $type) !important;
+  }
+}

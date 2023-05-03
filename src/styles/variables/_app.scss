@@ -1,0 +1,139 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+// *Colors*
+$color-white: #ffffff;
+$_color-icon: (
+  light-x-gray: #919496,
+  light-xx-gray: #dadce6,
+  white: #fff,
+  light-x-black: #060606,
+);
+$_color-text-dark-gray: (
+  1: #060606,
+  2: #1a1a1a,
+  3: #262626,
+  4: #2e2f30,
+  5: #333333,
+  6: #3d3e40,
+  7: #404040,
+);
+
+$_color-text-light-gray: (
+  1: #616466,
+  2: #919496,
+  3: #81858c,
+  4: #979698,
+  5: #aaabb3,
+  6: #dadce6,
+  7: #f8f8f8,
+  8: #8f9eb3,
+);
+$_color-background-gray: (
+  1: #121212,
+  2: #1a1a1a,
+  3: #262626,
+  4: #2e2f30,
+  5: #333333,
+  6: #3d3e40,
+  7: #404040,
+);
+$theme-primary: map-get($_color-background-gray, 1);
+
+$opacity-disable: 0.4;
+$opacity-x-disable: 0.7;
+
+$svg-size: 24px;
+
+// *Font*
+
+$font-family: Noto Sans, Arial, sans-serif;
+$font-family-roboto-mono: Roboto Mono, Monaco, monospace;
+
+// *Font Weight*
+$font-weight-regular: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+// Font Style
+$font-style-italic: italic;
+
+// 1 rem = 16px
+
+// *Font Size*
+
+$font-size-small: 0.625rem;
+$font-size-body-small: 0.75rem;
+$font-size-body: 0.875rem;
+$font-size-medium: 1.125rem;
+$font-size-x-medium: 1.5rem;
+$font-size-large: 1.75rem;
+
+// *Line Height*
+$line-height-small: 0.875rem;
+$line-height-body-small: 1rem;
+$line-height-body: 1.25rem;
+$line-height-medium: 1.75rem;
+$line-height-large: 2.5rem;
+
+// Extra button Padding
+$spacing-button-xx-small: 0.35rem;
+
+// *Spacing*
+$spacing-reset: 0rem;
+$spacing-xxx-small: 0.125rem;
+$spacing-xx-small: 0.25rem;
+$spacing-x-small: 0.5rem;
+$spacing-small: 0.75rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-x-large: 2rem;
+$spacing-xx-large: 3rem;
+
+// *Icon Size*
+$icon-size-small: 1rem;
+$icon-size-medium: 1.5rem;
+$icon-size-large: 2.25rem;
+
+// *Border Radius*
+$border-radius-small: 0.125rem;
+$border-radius-medium: 0.25rem;
+$border-radius-circle: 50%;
+$border-radius-large: 0.5rem;
+$border-radius-chip: 0.3rem;
+
+// *Shadow*
+$shadow-card: 0 4px 6px 0 rgba(0, 0, 0, 0.06);
+$shadow-modal: 0 0 0 1px rgba(151, 153, 189, 0.1), 0 8px 14px 0 rgba(46, 34, 23, 0.08);
+
+// Line Height
+$line-height-title: 2.5rem;
+$line-height-title-small: 1.75rem;
+$line-height-title-x-small: 1rem;
+$line-height-sub-title: 1.25rem;
+$line-height-sub-title-small: 1.125rem;
+$line-height-text: 1.25rem;
+$line-height-text-small: 1.125rem;
+$line-height-tags: 1.125rem;
+$line-height-button: 1.25rem;
+$line-height-button-small: 1.125rem;
+$line-height-numeric-important: 1.25rem;
+$line-height-numeric: 1.125rem;
+
+// Table Body Max Height
+
+$table-body-height: 65vh;
+$table-body-content-and-keys-height: 60vh;
+$mobile-nav-height: 64px;
+
+// Typography Font Size
+
+$font-size-title: 1.75rem;
+$font-size-title-small: 1.125rem;
+$font-size-sub-title: 0.875rem;
+$font-size-sub-title-small: 13px;
+$font-size-text: 0.875rem;
+$font-size-text-small: 0.8125rem;
+$font-size-tags: 0.75rem;
+$font-size-button: 0.875rem;
+$font-size-button-small: 0.75rem;
+$font-size-numeric-important: 0.875rem;
+$font-size-numeric: 0.875rem;

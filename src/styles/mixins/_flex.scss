@@ -1,0 +1,20 @@
+@mixin flex($justifyContent: null, $alignItems: null, $flexSize: null, $flexDirection: null) {
+  display: flex;
+  @include flexProperties($justifyContent, $alignItems, $flexSize, $flexDirection);
+}
+
+@mixin flexCenter($flexDirection: null) {
+  @include flexProperties(center, center, null, $flexDirection);
+}
+
+@mixin flexProperties(
+  $justifyContent: null,
+  $alignItems: null,
+  $flexSize: null,
+  $flexDirection: null
+) {
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex: $flexSize;
+  flex-direction: $flexDirection;
+}

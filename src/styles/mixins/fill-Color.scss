@@ -1,0 +1,5 @@
+@mixin fill-color($color: #fff, $width: 26px, $height: 26px, $important: "") {
+  width: $width;
+  height: $height;
+  fill: $color $important;
+}

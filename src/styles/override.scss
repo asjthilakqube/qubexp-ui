@@ -1,0 +1,55 @@
+@import "variables/app.scss";
+@import "./mixins/inputAndBackground";
+
+.bp3-popover .bp3-popover-content {
+  background: transparent !important;
+}
+
+.bp3-popover .bp3-popover-arrow-fill {
+  fill: map-get($_color-background-gray, 5) !important;
+}
+
+.ReactTable .rt-td {
+  padding: inherit;
+}
+
+.ReactTable .rt-tbody {
+  overflow-y: overlay !important;
+  scrollbar-width: thin !important;
+}
+
+.ReactTable .rt-table {
+  overflow-x: overlay !important;
+  scrollbar-width: thin !important;
+}
+
+.ReactTable .rt-tbody::-webkit-scrollbar {
+  width: 0.3rem !important;
+  display: block !important;
+}
+
+.ReactTable .rt-tbody::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+  outline: 0.2px solid $color-dark-tables-zebra-light;
+  border-radius: 10px;
+  z-index: -1;
+  position: absolute;
+}
+
+.ReactTable .rt-table::-webkit-scrollbar {
+  width: 0.3rem !important;
+  height: 0.3rem !important;
+  display: block !important;
+}
+
+.ReactTable .rt-table::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+  outline: 0.2px solid $color-dark-tables-zebra-light;
+  border-radius: 10px;
+  z-index: -1;
+  position: absolute;
+}
+
+.wb-checkbox {
+  cursor: pointer !important;
+}

@@ -1,0 +1,64 @@
+@import "../mixins/typography.scss";
+@import "../themes/colorsDark.scss";
+@import "../mixins/mediaQuery.scss";
+@import "../themes/app";
+@import "../themes/themify.scss";
+
+$_text_types: "title", "title-small", "sub-title", "sub-title-small", "text", "text-small", "tags",
+  "button", "button-small", "numeric-important", "numeric";
+$_text_size: (
+  "title": $font-size-title,
+  "title-small": $font-size-title-small,
+  "sub-title": $font-size-sub-title,
+  "sub-title-small": $font-size-sub-title-small,
+  "text": $font-size-text,
+  "text-small": $font-size-text-small,
+  "tags": $font-size-tags,
+  "button": $font-size-button,
+  "button-small": $font-size-button-small,
+  "numeric-important": $font-size-numeric-important,
+  "numeric": $font-size-numeric,
+);
+$_text_line_height: (
+  "title": $line-height-title,
+  "title-small": $line-height-title-small,
+  "sub-title": $line-height-sub-title,
+  "sub-title-small": $line-height-sub-title-small,
+  "text": $line-height-text,
+  "text-small": $line-height-text-small,
+  "tags": $line-height-tags,
+  "button": $line-height-button,
+  "button-small": $line-height-button-small,
+  "numeric-important": $line-height-numeric-important,
+  "numeric": $line-height-numeric,
+);
+
+@mixin textMixins(
+  $textCategory,
+  $fontFamily: $font-family,
+  $fontWeight: $font-weight-regular,
+  $textTransform: null,
+  $textAlign: left,
+  $padding: null,
+  $colorCategory: "text-default",
+  $fontStyle: null,
+  $forceStyle: null
+) {
+  font-size: map_get($_text_size, $textCategory) $forceStyle;
+  font-family: $fontFamily $forceStyle;
+  font-weight: $fontWeight $forceStyle;
+  font-style: $fontStyle $forceStyle;
+  text-align: $textAlign $forceStyle;
+  padding: $padding $forceStyle;
+  text-transform: $textTransform $forceStyle;
+  line-height: map_get($_text_line_height, $textCategory) $forceStyle;
+  @include themify($themes) {
+    color: themed($colorCategory) $forceStyle;
+  }
+}
+
+@mixin overFlowEllipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0px;
+}
