@@ -1,0 +1,20 @@
+{
+  "en-US": {
+    "addSchedule": "Schedule",
+    "scheduleShow": "Schedule Show",
+    "startTime": "Start Time",
+    "deleteShow": "Do you want to delete the selected show?"
+  },
+  "ta": {
+    "addSchedule": "அட்டவணை",
+    "scheduleShow": "அட்டவணை நிகழ்ச்சி",
+    "startTime": "ஆரம்பிக்கும் நேரம்",
+    "deleteShow": "அட்டவணையை நீக்க விரும்புகிறீர்களா?"
+  },
+  "zh-CN": {
+    "addSchedule": "日程",
+    "scheduleShow": "安排演出",
+    "startTime": "开始时间",
+    "deleteShow": "是否要删除选定的节目?"
+  }
+}

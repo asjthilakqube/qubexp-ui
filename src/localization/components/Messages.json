@@ -1,0 +1,29 @@
+{
+  "en-US": {
+    "url": "Invalid url",
+    "empty": "",
+    "userName": "Please check your user name",
+    "password": "Please check your password",
+    "addBookmark": "Create Bookmark",
+    "editBookmark": "Edit Bookmark",
+    "noData": "No information found"
+  },
+  "ta": {
+    "url": "தவறான வலைதள முகவரி",
+    "empty": "",
+    "userName": "தயவுசெய்து உங்கள் கடவுச்சொல் சரிபார்க்கவும்",
+    "password": "தயவுசெய்து உங்கள் பயனர்பெயரை சரிபாருங்கள்",
+    "addBookmark": "ுக்மார்க் உருவாக்கவும்",
+    "editBookmark": "ுபுக்மார்க் திருத்தவும்",
+    "noData": "வேறு தகவல்கள் இல்லை"
+  },
+  "zh-CN": {
+    "url": "无效的网址",
+    "empty": "",
+    "userName": "请检查您的用户名",
+    "password": "请检查您的密码",
+    "addBookmark": "创建书签",
+    "editBookmark": "编辑书签",
+    "noData": "没有找到信息"
+  }
+}

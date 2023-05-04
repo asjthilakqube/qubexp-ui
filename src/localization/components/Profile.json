@@ -1,0 +1,32 @@
+{
+  "en-US": {
+    "dashboard": "Profile",
+    "password": "password",
+    "passwordInfo": "Change Password",
+    "userName": "User",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "selectUser": "Select User"
+  },
+  "ta": {
+    "dashboard": "சுயவிவரம்",
+    "password": "கடவுச்சொல்",
+    "passwordInfo": "கடவுச்சொல்லை மாற்று",
+    "userName": "பயனர்",
+    "currentPassword": "தற்போதைய கடவுச்சொல்",
+    "newPassword": "புதிய கடவுச்சொல்",
+    "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+    "selectUser": "பயனரைத் தேர்ந்தெடுக்கவும்"
+  },
+  "zh-CN": {
+    "dashboard": "轮廓",
+    "password": "密码",
+    "passwordInfo": "更改密码",
+    "userName": "用户",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "selectUser": "选择用户"
+  }
+}

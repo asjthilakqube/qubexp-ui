@@ -1,0 +1,37 @@
+{
+  "en-US": {
+    "totalEvents": "Total Events: ",
+    "duration": "Duration: ",
+    "showsPlayed": "Shows Played: ",
+    "lastPlayed": "Last Updated On: ",
+    "addToShow": "Add to Show",
+    "createdOn": "Created On: ",
+    "lastUpdated": "Last Updated On",
+    "export": "Export",
+    "load": "Load",
+    "unavailableCompositions": "Compositions Unavailable"
+  },
+  "ta": {
+    "totalEvents": "மொத்த நிகழ்வுகள்",
+    "showsPlayed": "காண்பிக்கப்பட்ட நிகழ்ச்சிகள்",
+    "lastPlayed": "கடைசியாக புதுப்பிக்கப்பட்டது",
+    "duration": "காலஅளவுகளும்",
+    "createdOn": "அன்று உருவாக்கப்பட்ட",
+    "lastUpdated": "கடைசியாக புதுப்பிக்கப்பட்டது",
+    "addToShow": "காண்பிக்க சேர்",
+    "export": "ஏற்றுமதி",
+    "unavailableCompositions": "கிடைக்காத தொகுப்புகள்"
+  },
+  "zh-CN": {
+    "totalEvents": "事件总数",
+    "duration": "期间",
+    "showsPlayed": "播放的节目",
+    "lastPlayed": "最后更新日期",
+    "addToShow": "添加到显示",
+    "createdOn": "创建于",
+    "lastUpdated": "最后更新日期",
+    "export": "出口",
+    "load": "加载",
+    "unavailableCompositions": "作品不可用"
+  }
+}

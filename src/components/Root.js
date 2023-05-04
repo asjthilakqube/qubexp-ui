@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import App from "../App";
 // import PropTypes from "prop-types";
-// import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 // import { connect } from "react-redux";
 // import path from "../constant/path";
 // import ProtectedRoute from "./auth/ProtectedRoute";
-// import Login from "./auth/Login";
+import Login from "./auth/Login";
 // import Logout from "./auth/Logout";
 // import NotFound from "./common/NotFoundPage";
 // import Logs from "./pages/Logs";
@@ -34,7 +34,7 @@ import App from "../App";
 // import AutomationCueDetails from "./pages/AutomationCueDetails";
 // import AutomationCueEdit from "./pages/AutomationCueEdit";
 // import Profile from "./pages/Profile";
-// import ErrorBoundary from "./ErrorBoundary";
+import ErrorBoundary from "./ErrorBoundary";
 // import Layout from "./common/Layout";
 
 // import bindDispatch from "../utils/actions";
@@ -87,157 +87,157 @@ class Root extends Component {
     // const { authChecked } = this.state;
     // if (!authChecked) return null;
     return (
-        <App/>
-    //   <ErrorBoundary>
-    //     <Switch>
-    //       <Route exact path="/" render={() => <Redirect to="/login" />} />
-    //       <Route exact path="/login" component={Login} />
-    //       <Route exact path="/logout" component={Logout} />
-    //       <Layout>
-    //         <Switch>
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.root}
-    //             scope={SCOPES.PLAYBACK}
-    //             render={() => redirectFunction(path.playback)}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.playback}
-    //             scope={SCOPES.PLAYBACK}
-    //             component={PlaybackControl}
-    //           />
-    //           <ProtectedRoute exact path={path.shows} scope={SCOPES.SHOWS} component={ShowsList} />
-    //           <ProtectedRoute
-    //             path={path.importShow}
-    //             scope={SCOPES.SHOWS}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={ShowImport}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.newShows}
-    //             scope={SCOPES.SHOWS}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={ShowEdit}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.viewShow}
-    //             scope={SCOPES.SHOWS}
-    //             component={ShowDetails}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.editShow}
-    //             scope={SCOPES.SHOWS}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={ShowEdit}
-    //           />
-    //           <ProtectedRoute path={path.schedules} scope={SCOPES.SCHEDULE} component={Schedule} />
-    //           <ProtectedRoute
-    //             path={path.addKey}
-    //             scope={SCOPES.INGEST}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={AddKey}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.ingestContent}
-    //             scope={SCOPES.INGEST}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={IngestContent}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.viewPackageDetails}
-    //             scope={SCOPES.SHOWS}
-    //             component={PackageDetails}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.viewCompositionDetails}
-    //             scope={SCOPES.SHOWS}
-    //             component={ContentDetails}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.contentAndKeysSubRoot}
-    //             scope={SCOPES.SHOWS}
-    //             component={ContentAndKeys}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.contentAndKeys}
-    //             scope={SCOPES.SHOWS}
-    //             render={() => redirectFunction(path.contentAndKeyCompositions)}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.settingSubRoot}
-    //             scope={SCOPES.SYSTEM}
-    //             component={Setting}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.setting}
-    //             scope={SCOPES.SYSTEM}
-    //             render={() => redirectFunction(path.settingGeneral)}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             scope={SCOPES.AUTOMATION}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             path={path.automationActionForm}
-    //             component={AutomationActionForm}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             scope={SCOPES.AUTOMATION}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             path={path.automationDeviceForm}
-    //             component={AutomationDeviceForm}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             scope={SCOPES.AUTOMATION}
-    //             path={path.viewCueDetails}
-    //             component={AutomationCueDetails}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             scope={SCOPES.AUTOMATION}
-    //             path={path.automationDeviceDetails}
-    //             component={AutomationDeviceDetails}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.deviceAndAutomationSubRoot}
-    //             scope={SCOPES.AUTOMATION}
-    //             component={Automation}
-    //           />
-    //           <ProtectedRoute
-    //             path={path.deviceAndAutomation}
-    //             scope={SCOPES.AUTOMATION}
-    //             render={() => redirectFunction(path.deviceAndAutomationDevice)}
-    //           />
-    //           <ProtectedRoute path={path.logsSubRoot} scope={SCOPES.LOGS} component={Logs} />
-    //           <ProtectedRoute
-    //             path={path.logs}
-    //             scope={SCOPES.LOGS}
-    //             render={() => redirectFunction(path.logsSystem)}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.editCue}
-    //             scope={SCOPES.AUTOMATION}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={AutomationCueEdit}
-    //           />
-    //           <ProtectedRoute
-    //             exact
-    //             path={path.newCue}
-    //             scope={SCOPES.AUTOMATION}
-    //             scopeAction={SCOPE_ACTIONS.WRITE}
-    //             component={AutomationCueEdit}
-    //           />
-    //           <ProtectedRoute exact path={path.profile} scope={SCOPES.SYSTEM} component={Profile} />
-    //           <ProtectedRoute scope={SCOPES.SELF} component={NotFound} />
-    //         </Switch>
-    //       </Layout>
-    //     </Switch>
-    //   </ErrorBoundary>
+        // <App/>
+      <ErrorBoundary>
+        <Switch>
+          <Route exact path="/" render={() => <Redirect to="/login" />} />
+          <Route exact path="/login" component={Login} />
+          {/* <Route exact path="/logout" component={Logout} />
+          <Layout>
+            <Switch> */}
+              {/* <ProtectedRoute
+                exact
+                path={path.root}
+                scope={SCOPES.PLAYBACK}
+                render={() => redirectFunction(path.playback)}
+              /> */}
+              {/* <ProtectedRoute
+                path={path.playback}
+                scope={SCOPES.PLAYBACK}
+                component={PlaybackControl}
+              />
+              <ProtectedRoute exact path={path.shows} scope={SCOPES.SHOWS} component={ShowsList} />
+              <ProtectedRoute
+                path={path.importShow}
+                scope={SCOPES.SHOWS}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={ShowImport}
+              />
+              <ProtectedRoute
+                exact
+                path={path.newShows}
+                scope={SCOPES.SHOWS}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={ShowEdit}
+              />
+              <ProtectedRoute
+                exact
+                path={path.viewShow}
+                scope={SCOPES.SHOWS}
+                component={ShowDetails}
+              />
+              <ProtectedRoute
+                exact
+                path={path.editShow}
+                scope={SCOPES.SHOWS}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={ShowEdit}
+              />
+              <ProtectedRoute path={path.schedules} scope={SCOPES.SCHEDULE} component={Schedule} />
+              <ProtectedRoute
+                path={path.addKey}
+                scope={SCOPES.INGEST}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={AddKey}
+              />
+              <ProtectedRoute
+                path={path.ingestContent}
+                scope={SCOPES.INGEST}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={IngestContent}
+              />
+              <ProtectedRoute
+                path={path.viewPackageDetails}
+                scope={SCOPES.SHOWS}
+                component={PackageDetails}
+              />
+              <ProtectedRoute
+                path={path.viewCompositionDetails}
+                scope={SCOPES.SHOWS}
+                component={ContentDetails}
+              />
+              <ProtectedRoute
+                path={path.contentAndKeysSubRoot}
+                scope={SCOPES.SHOWS}
+                component={ContentAndKeys}
+              />
+              <ProtectedRoute
+                path={path.contentAndKeys}
+                scope={SCOPES.SHOWS}
+                render={() => redirectFunction(path.contentAndKeyCompositions)}
+              />
+              <ProtectedRoute
+                path={path.settingSubRoot}
+                scope={SCOPES.SYSTEM}
+                component={Setting}
+              />
+              <ProtectedRoute
+                path={path.setting}
+                scope={SCOPES.SYSTEM}
+                render={() => redirectFunction(path.settingGeneral)}
+              />
+              <ProtectedRoute
+                exact
+                scope={SCOPES.AUTOMATION}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                path={path.automationActionForm}
+                component={AutomationActionForm}
+              />
+              <ProtectedRoute
+                exact
+                scope={SCOPES.AUTOMATION}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                path={path.automationDeviceForm}
+                component={AutomationDeviceForm}
+              />
+              <ProtectedRoute
+                exact
+                scope={SCOPES.AUTOMATION}
+                path={path.viewCueDetails}
+                component={AutomationCueDetails}
+              />
+              <ProtectedRoute
+                exact
+                scope={SCOPES.AUTOMATION}
+                path={path.automationDeviceDetails}
+                component={AutomationDeviceDetails}
+              />
+              <ProtectedRoute
+                path={path.deviceAndAutomationSubRoot}
+                scope={SCOPES.AUTOMATION}
+                component={Automation}
+              />
+              <ProtectedRoute
+                path={path.deviceAndAutomation}
+                scope={SCOPES.AUTOMATION}
+                render={() => redirectFunction(path.deviceAndAutomationDevice)}
+              />
+              <ProtectedRoute path={path.logsSubRoot} scope={SCOPES.LOGS} component={Logs} />
+              <ProtectedRoute
+                path={path.logs}
+                scope={SCOPES.LOGS}
+                render={() => redirectFunction(path.logsSystem)}
+              />
+              <ProtectedRoute
+                exact
+                path={path.editCue}
+                scope={SCOPES.AUTOMATION}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={AutomationCueEdit}
+              />
+              <ProtectedRoute
+                exact
+                path={path.newCue}
+                scope={SCOPES.AUTOMATION}
+                scopeAction={SCOPE_ACTIONS.WRITE}
+                component={AutomationCueEdit}
+              /> */}
+              {/* <ProtectedRoute exact path={path.profile} scope={SCOPES.SYSTEM} component={Profile} /> */}
+              {/* <ProtectedRoute scope={SCOPES.SELF} component={NotFound} /> */}
+            {/* </Switch>
+          </Layout> */}
+        </Switch>
+      </ErrorBoundary>
     );
   }
 }

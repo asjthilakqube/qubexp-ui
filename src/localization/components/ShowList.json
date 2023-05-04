@@ -1,0 +1,46 @@
+{
+  "en-US": {
+    "show": "show",
+    "showHeader": "Shows",
+    "createShow": "Create Show",
+    "showDeleted": "Show deleted",
+    "createNewShow": "Create New Show",
+    "noShows": "currently no show is loaded.",
+    "Import": "Import Show",
+    "nextShowOn": "Next Show on {value}",
+    "selectedShow": "{selectedShow} show selected",
+    "editShow": "Edit Show",
+    "seekToCpl": "Seek to this composition",
+    "saveShow": "Save Show",
+    "loadShow": "Load"
+  },
+  "ta": {
+    "show": "நிகழ்ச்சிகள்",
+    "showHeader": "நிகழ்ச்சிகள்",
+    "showDeleted": "காட்சி நீக்கப்பட்டது",
+    "noShows": "தற்போது எந்த நிகழ்ச்சியும் ஏற்றப்படவில்லை.",
+    "createShow": "புதிதாக உருவாக்கு",
+    "nextShowOn": "அடுத்த காட்சி {value}",
+    "selectedShow": "{selectedShow} நிகழ்ச்சிகள் தேர்ந்தெடுக்கப்பட்டது",
+    "createNewShow": "புதிதாக உருவாக்கு",
+    "Import": "நிகழ்ச்சிகள் இறக்குமதி",
+    "seekToCpl": "இந்த அமைப்பைத் தேடுங்கள்",
+    "editShow": "நிகழ்ச்சியைத் திருத்து",
+    "load": "ஏற்று",
+    "saveShow": "சேமி காட்சி"
+  },
+  "zh-CN": {
+    "show": "显示",
+    "showHeader": "节目",
+    "createShow": "创作表演",
+    "showDeleted": "节目已删除",
+    "createNewShow": "创建新节目",
+    "noShows": "目前没有加载任何节目",
+    "Import": "进口展",
+    "nextShowOn": "下一个显示 {value}",
+    "selectedShow": "{selectedShow} 显示选中",
+    "editShow": "编辑节目",
+    "seekToCpl": "求这个组合",
+    "saveShow": "保存显示"
+  }
+}

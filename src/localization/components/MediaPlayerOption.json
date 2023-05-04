@@ -1,0 +1,32 @@
+{
+  "en-US": {
+    "loop": "Loop",
+    "play": "Play",
+    "pause": "Pause",
+    "next": "Next",
+    "stop": "Stop",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "eject": "Eject"
+  },
+  "ta": {
+    "loop": "சூழலில்",
+    "play": "விளையாடு",
+    "pause": "இடைநிறுத்தம்",
+    "next": "அடுத்தது",
+    "stop": "நிறுத்த",
+    "lock": "பூட்டு",
+    "unlock": "திற",
+    "eject": "வெளியேற்று"
+  },
+  "zh-CN": {
+    "loop": "环形",
+    "play": "玩",
+    "pause": "暂停",
+    "next": "下一个",
+    "stop": "停止",
+    "lock": "锁",
+    "unlock": "开锁",
+    "eject": "喷射"
+  }
+}

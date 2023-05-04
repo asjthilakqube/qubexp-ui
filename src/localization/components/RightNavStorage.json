@@ -1,0 +1,15 @@
+{
+  "en-US": {
+    "storage": "Storage",
+    "totalSize": "Total Size",
+    "used": "Used",
+    "left": "Left"
+  },
+  "ta": {
+    "storage": "சேமிப்பு",
+    "totalSize": "ஒட்டு மொத்த அளவு",
+    "used": "பயன்படுத்திய",
+    "left": "மீதமுள்ள"
+  },
+  "zh-CN": { "storage": "贮存", "totalSize": "总尺寸", "used": "用过的", "left": "剩下" }
+}

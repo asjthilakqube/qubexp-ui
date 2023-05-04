@@ -1,0 +1,149 @@
+@import "../../mixins/flex.scss";
+@import "../../variables/app.scss";
+@import "../../mixins/text.scss";
+@import "../../mixins/inputAndBackground.scss";
+@import "../../themes/colorsDark";
+
+.cardContainer {
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+  button {
+    min-width: 200px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    min-width: 320px;
+    max-width: 520px;
+    width: 40%;
+    padding: 3.5rem;
+    background: $color-dark-tables-zebra-light;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    border-radius: $border-radius-large;
+    .logo {
+      margin: 0.75rem 0 1.5rem 0;
+      img {
+        width: 225px;
+      }
+    }
+    @include mq(small) {
+      height: 100vh !important;
+    }
+  }
+}
+
+.inputContainer {
+  @include flex($flexSize: 1, $flexDirection: column);
+  padding-bottom: $spacing-medium;
+  .header,
+  .input {
+    @include flex($flexSize: 1);
+  }
+  .header {
+    color: map-get($_color-text-light-gray, 6);
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: $opacity-x-disable;
+    padding: $spacing-x-small 0;
+  }
+}
+
+$_intent_types: "error", "warning", "success", "default";
+
+$_intent_color: (
+  "error": "alert",
+  "warning": "alert-warning",
+  "success": "highlight",
+  "default": "text-default",
+);
+
+@mixin activeBorder($type) {
+  @include border($colorCategory: map_get($_intent_color, $type));
+}
+
+.disabled {
+  opacity: 0.4;
+}
+.container {
+  @include flex($flexSize: 1, $flexDirection: column);
+  @include box("");
+  .input {
+    @include background("background-text-secondary");
+    @include border($colorCategory: "button-secondary-hover");
+    @each $type in $_intent_types {
+      &.#{$type} {
+        &:focus-within {
+          @include activeBorder($type);
+        }
+        &.intentBorder {
+          @include activeBorder($type);
+        }
+      }
+    }
+    @include flex($flexSize: 1, $flexDirection: row);
+    input {
+      @include flex($flexSize: 1);
+      order: 2;
+      width: 100%;
+      @include inputText(
+        $backgroundCategory: null,
+        $padding: 0.438rem $spacing-x-small,
+        $textCategory: "text-small"
+      );
+      &:disabled {
+        cursor: not-allowed;
+        &::placeholder {
+          @include color("text-disabled");
+        }
+      }
+    }
+
+    .clear {
+      order: 1;
+      padding-right: $spacing-xx-small;
+    }
+
+    .children {
+      order: 2;
+      @include flex(flex-end);
+      &.disabled {
+        pointer-events: none;
+      }
+    }
+
+    &.right {
+      input {
+        order: 1;
+      }
+      .clear {
+        order: 2;
+      }
+      .children {
+        order: 3;
+      }
+    }
+
+    @include stylesAround;
+  }
+  .intent {
+    @include flex($flexSize: 1);
+    @each $type in $_intent_types {
+      &.#{$type} {
+        @include color($colorCategory: map_get($_intent_color, $type));
+      }
+    }
+  }
+  .iconWrapper {
+    padding: 0 $spacing-x-small;
+  }
+}

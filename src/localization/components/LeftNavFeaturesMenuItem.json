@@ -1,0 +1,41 @@
+{
+  "en-US": {
+    "playBackKey_01": "Playback Control",
+    "showKey_01": "Shows",
+    "scheduleKey_01": "Schedule",
+    "contentKeys_01": "Content & Keys",
+    "automation_01": "Automation",
+    "logsKey_01": "Logs",
+    "systemKey_01": "Settings"
+  },
+  "es-ES": {
+    "playBackKey_01": "Playback Control ---",
+    "showKey_01": "Shows ---",
+    "scheduleKey_01": "Schedule ---",
+    "contentKeys_01": "Content & Keys ---",
+    "logsKey_01": "Logs ---",
+    "automation_01": "Automation",
+    "systemKey_01": "Settings ---"
+  },
+  "ta": {
+    "playBackKey_01": "தகவல் பலகை",
+    "showKey_01": "நிகழ்ச்சிகள்",
+    "scheduleKey_01": "அட்டவணை",
+    "contenKey_01": "மீடியா மற்றும் விசைகள்",
+    "contentKeys_01": "மீடியா மற்றும் விசைகள்",
+    "automation_01": "ஆட்டோமேஷன்கள்",
+    "logsKey_01": "பதிவுகள்",
+    "systemKey_01": "கணினி அமைப்புகளை",
+    "logsViewer_01": "பதிவுகள் பார்வையாளர்"
+  },
+  "zh-CN": {
+    "playBackKey_01": "播放控制",
+    "showKey_01": "节目",
+    "scheduleKey_01": "日程",
+    "contentKeys_01": "内容 & 钥匙",
+    "automation_01": "自动化",
+    "logsKey_01": "日志",
+    "systemKey_01": "设置",
+    "logsViewer_01": "日志查看器"
+  }
+}

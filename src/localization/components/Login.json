@@ -1,0 +1,17 @@
+{
+  "en-US": {
+    "userName": "USERNAME",
+    "password": "PASSWORD",
+    "login": "Login"
+  },
+  "ta": {
+    "userName": "பயனர் பெயர்",
+    "password": "கடவுச்சொல்",
+    "login": "உள்நுழைய"
+  },
+  "zh-CN": {
+    "userName": "用户名",
+    "password": "密码",
+    "login": "登录"
+  }
+}

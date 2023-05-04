@@ -1,38 +1,38 @@
-// @import "../variables/app.scss";
-// @import "../mixins/typography.scss";
-// @import "../themes/colorsDark.scss";
-// @import "../mixins/mediaQuery.scss";
-// @import "../mixins/flex.scss";
-// @import "../themes/app";
-// @import "../themes/themify.scss";
-// @import "../mixins/inputAndBackground.scss";
-// @import "../mixins/text.scss";
+@import "../variables/app.scss";
+@import "../mixins/typography.scss";
+@import "../themes/colorsDark.scss";
+@import "../mixins/mediaQuery.scss";
+@import "../mixins/flex.scss";
+@import "../themes/app";
+@import "../themes/themify.scss";
+@import "../mixins/inputAndBackground.scss";
+@import "../mixins/text.scss";
 
-// @mixin buttonWrapper(
-//   $backgroundCategory: "card",
-//   $borderRadius: $border-radius-medium,
-//   $opacity: null,
-//   $padding: $spacing-x-small $spacing-small
-// ) {
-//   @include flex(space-between, center);
-//   border: none;
-//   cursor: pointer;
-//   border-radius: $borderRadius;
-//   padding: $padding;
-//   opacity: $opacity;
-//   @include themify($themes) {
-//     background: themed($backgroundCategory);
-//   }
-// }
+@mixin buttonWrapper(
+  $backgroundCategory: "card",
+  $borderRadius: $border-radius-medium,
+  $opacity: null,
+  $padding: $spacing-x-small $spacing-small
+) {
+  @include flex(space-between, center);
+  border: none;
+  cursor: pointer;
+  border-radius: $borderRadius;
+  padding: $padding;
+  opacity: $opacity;
+  @include themify($themes) {
+    background: themed($backgroundCategory);
+  }
+}
 
-// @mixin buttonText($colorCategory) {
-//   @include flex;
-//   @include textMixins(
-//     "button",
-//     $font-family,
-//     $font-weight-semi-bold,
-//     uppercase,
-//     $colorCategory: $colorCategory
-//   );
-//   order: 1;
-// }
+@mixin buttonText($colorCategory) {
+  @include flex;
+  @include textMixins(
+    "button",
+    $font-family,
+    $font-weight-semi-bold,
+    uppercase,
+    $colorCategory: $colorCategory
+  );
+  order: 1;
+}

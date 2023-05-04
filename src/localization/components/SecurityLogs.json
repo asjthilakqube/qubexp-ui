@@ -1,0 +1,26 @@
+{
+  "en-US": {
+    "securityLogs": "Security Logs",
+    "timePeriod": "Time Period",
+    "success": "Log Successfully Generated",
+    "warning": "Partial Log Generated",
+    "failure": "No Events found for the selected range",
+    "generateLog": "Generate Log"
+  },
+  "ta": {
+    "securityLogs": "பாதுகாப்பு பதிவுகள்",
+    "timePeriod": "கால கட்டம்",
+    "success": "பதிவு வெற்றிகரமாக உருவாக்கப்பட்டது",
+    "warning": "பகுதி பதிவு உருவாக்கப்பட்டது",
+    "failure": "தேர்ந்தெடுக்கப்பட்ட வரம்பிற்கு நிகழ்வுகள் இல்லை",
+    "generateLog": "பதிவை உருவாக்கவும்"
+  },
+  "zh-CN": {
+    "securityLogs": "安全日志",
+    "timePeriod": "时间段",
+    "success": "日志生成成功",
+    "warning": "部分日志生成",
+    "failure": "未找到所选范围的事件",
+    "generateLog": "生成日志"
+  }
+}

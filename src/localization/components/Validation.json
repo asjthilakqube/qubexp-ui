@@ -1,0 +1,34 @@
+{
+  "en-US": {
+    "required": "Required",
+    "uniq": "Same IP address already assigned. Please try different IP address",
+    "validIpAddress": "Enter valid IP address",
+    "mandatoryTheaterName": "Theater Name is required",
+    "mandatoryScreenName": "Screen Name is required",
+    "mandatoryWeekFirstDay": "First day of the week is required",
+    "mandatoryTimeZone": "Time zone is required",
+    "mandatoryParameterValue": "Parameter Value is required",
+    "validPortNumber": "Enter valid Port Number",
+    "validNtpServerAddress": "Enter valid NTP server Address",
+    "mandatoryNtpServerAddress": "Enter valid NTP Server Address or use time.nist.gov"
+  },
+  "ta": {
+    "required": "தேவையான",
+    "uniq": "மதிப்பு ஏற்கனவே உள்ளது",
+    "validIpAddress": "தேவையானஎண்டர் செல்லுபடியாகும் ஐபி முகவரி",
+    "validNtpServerAddress": "தேவையானஎண்டர் செல்லுபடியாகும் என்டிபி server முகவரி",
+    "mandatoryNtpServerAddress": "தேவையானஎண்டர் செல்லுபடியாகும் என்டிபி server முகவரி அல்லது time.nist.gov பயன்படுத்தவும்",
+    "validPortNumber": "சரியான போர்ட் எண்ணை உள்ளிடவும்"
+  },
+  "zh-CN": {
+    "required": "必需的",
+    "uniq": "已分配相同的 IP 地址。请尝试不同的IP地址",
+    "validIpAddress": "输入有效的 IP 地址",
+    "mandatoryTheaterName": "剧院名称为必填项",
+    "mandatoryScreenName": "屏幕名称为必填项",
+    "mandatoryWeekFirstDay": "一周的第一天是必需的",
+    "mandatoryTimeZone": "时区为必填项",
+    "mandatoryParameterValue": "参数值是必需的",
+    "validPortNumber": "输入有效的端口号"
+  }
+}

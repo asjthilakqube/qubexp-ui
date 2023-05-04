@@ -1,0 +1,20 @@
+{
+  "en-US": {
+    "playerLocked": "Player is locked",
+    "previous": "Previous",
+    "show": "Show",
+    "playing": "Playing"
+  },
+  "ta": {
+    "playerLocked": "பிளேயர் பூட்டப்பட்டுள்ளது",
+    "previous": "முந்தைய",
+    "show": "நிகழ்ச்சி",
+    "playing": "Playing"
+  },
+  "zh-CN": {
+    "playerLocked": "玩家被锁定",
+    "previous": "以前的",
+    "show": "显示",
+    "playing": "玩"
+  }
+}

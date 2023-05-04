@@ -1,0 +1,13 @@
+{
+  "en-US": {
+    "currentIngestion": "Ingest",
+    "completed": "Completed",
+    "timeLeft": "Time Left"
+  },
+  "ta": {
+    "currentIngestion": "இன்ஸ்டெஸ்ட்",
+    "completed": "நிறைவு",
+    "timeLeft": "மீதியுள்ள நேரம்"
+  },
+  "zh-CN": { "currentIngestion": "摄取", "completed": "完全的", "timeLeft": "剩下的时间" }
+}

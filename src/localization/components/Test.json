@@ -1,0 +1,11 @@
+{
+  "en-US": {
+    "employeeName": "Employee Name",
+    "department": "Department"
+  },
+  "ta": {
+    "employeeName": "Employee Name",
+    "department": "Department"
+  },
+  "zh-CN": { "employeeName": "员工姓名", "department": "部" }
+}

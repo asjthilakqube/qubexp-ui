@@ -1,0 +1,51 @@
+{
+  "en-US": {
+    "cancel": "cancel",
+    "continue": "continue",
+    "confirmationMessage": "Are you sure?",
+    "contentAndKeyBulkDelete": "Are you sure you want to delete the selected items?",
+    "deleteSelected": "Are you sure you want to delete the selected items?",
+    "deleteContent": "Are you sure you want to delete the selected content?",
+    "deleteShow": "Are you sure you want to delete the selected show?",
+    "deleteCue": "Are you sure you want to delete the selected Cue?",
+    "deletePackage": "Are you sure you want to delete the selected Package?",
+    "deleteKdm": "Are you sure you want to delete the selected key?",
+    "withoutSavingShow": "Show has not been saved, Are you sure you want to exit?",
+    "withoutSavingCue": "Cue Creation has not been saved, Are you sure you want to exit?",
+    "withoutSavingDevice": "Device has not been saved, Are you sure you want to exit?",
+    "deleteAction": "Are you sure you want to delete the selected Action?",
+    "changeCategory": "Are you sure you want to change the device category?",
+    "deleteNestedShow": "Are you sure you want to remove the Nested Show?"
+  },
+  "ta": {
+    "cancel": "ரத்து",
+    "continue": "தொடர்ந்து",
+    "confirmationMessage": "நீ சொல்வது உறுதியா?",
+    "contentAndKeyBulkDelete": "dcp க்காக தேர்ந்தெடுக்கப்பட்ட தொகுப்புகளை நீக்கவும், மற்றும் cpl க்கான தேர்ந்தெடுக்கப்பட்ட உள்ளடக்கங்களையும் kdm க்கான விசைகளையும் நீக்கவும்",
+    "deleteShow": "நிகழ்ச்சியை நீக்க வேண்டுமா?",
+    "deleteContent": "உள்ளடக்கத்தை நீக்க வேண்டுமா?",
+    "deletePackage": "தொகுப்பை நீக்க வேண்டுமா?",
+    "deleteKdm": "நீக்க வேண்டுமா?",
+    "withoutSavingShow": "நிகழ்ச்சி சேமிக்கப்படவில்லை, நீங்கள் வெளியேற விரும்புகிறீர்களா?",
+    "withoutSavingDevice": "சாதனங்கள் சேமிக்கப்படவில்லை, நீங்கள் வெளியேற விரும்புகிறீர்களா?",
+    "changeCategory": "சாதன வகையை மாற்ற விரும்புகிறீர்களா?",
+    "deleteNestedShow": "உள்ளமை நிகழ்ச்சியை நீக்க விரும்புகிறீர்களா?"
+  },
+  "zh-CN": {
+    "cancel": "取消",
+    "continue": "继续",
+    "confirmationMessage": "你确定吗?",
+    "contentAndKeyBulkDelete": "您确定要删除所选项目吗?",
+    "deleteSelected": "您确定要删除所选项目吗?",
+    "deleteContent": "您确定要删除所选内容吗?",
+    "deleteShow": "您确定要删除所选节目吗?",
+    "deleteCue": "您确定要删除选定的 提示?",
+    "deletePackage": "您确定要删除选定的包吗?",
+    "deleteKdm": "您确定要删除选定的密钥吗?",
+    "withoutSavingShow": "节目尚未保存，您确定要退出吗?",
+    "withoutSavingCue": "提示创建尚未保存，您确定要退出吗?",
+    "withoutSavingDevice": "设备尚未保存，您确定要退出吗?",
+    "deleteAction": "您确定要删除选定的操作吗?",
+    "changeCategory": "您确定要更改设备类别吗?"
+  }
+}

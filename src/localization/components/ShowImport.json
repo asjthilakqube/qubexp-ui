@@ -1,0 +1,20 @@
+{
+  "en-US": {
+    "browse": "Browse",
+    "ingest": "Ingest",
+    "importShow": "Import show",
+    "importShowMessage": "Choose the show that you want to import"
+  },
+  "ta": {
+    "ingest": "உள்ளடக்கத்தை",
+    "browse": "உலாவ",
+    "importShow": "இறக்குமதி",
+    "importShowMessage": "நீங்கள் உட்கொள்ள விரும்பும் இறக்குமதி தேர்வுசெய்யவும்"
+  },
+  "zh-CN": {
+    "browse": "浏览",
+    "ingest": "摄取",
+    "importShow": "进口展示",
+    "importShowMessage": "选择要导入的节目"
+  }
+}

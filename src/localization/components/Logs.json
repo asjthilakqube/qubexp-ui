@@ -1,0 +1,31 @@
+{
+  "en-US": {
+    "logs": "Logs",
+    "system": "System",
+    "security": "Security",
+    "generateLog": "Generate Log",
+    "service": "Service",
+    "severity": "Severity",
+    "eventTypes": "Event Types",
+    "user": "User",
+    "show": "Show",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "advancedMode": "Advanced Mode"
+  },
+  "ta": {
+    "logs": "பதிவுகள்",
+    "system": "அமைப்பு",
+    "security": "பாதுகாப்பு",
+    "generateLog": "பதிவை உருவாக்கு",
+    "service": "சேவை",
+    "severity": "தீவிரம்",
+    "eventTypes": "நிகழ்வு வகைகள்",
+    "user": "பயனர்",
+    "show": "நிகழ்ச்சி",
+    "startDate": "தொடக்க தேதியை உள்ளிடவும்",
+    "endDate": "இறுதி தேதியை உள்ளிடவும்",
+    "advancedMode": "மேம்பட்ட முறை"
+  },
+  "zh-CN": { "logs": "日志", "system": "系统", "security": "安全", "generateLog": "生成日志" }
+}

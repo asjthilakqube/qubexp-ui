@@ -1,10 +1,7 @@
 import { applyMiddleware, compose, createStore } from "redux";
 import thunkMiddleware from "redux-thunk";
 import { routerMiddleware } from "react-router-redux";
-// Disable check for history since it is a sub-dep of react-router-dom
-// Importing it separately can cause 2 conflicting versions of history
-// TODO: Refactor this to avoid using history directly and instead use via React Router API
-// eslint-disable-next-line import/no-extraneous-dependencies
+
 import { createBrowserHistory } from "history";
 import rootReducer from "./store/reducers";
 export const history = createBrowserHistory();

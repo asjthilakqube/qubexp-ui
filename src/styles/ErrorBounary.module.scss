@@ -1,0 +1,20 @@
+@import "mixins/text";
+@import "mixins/flex";
+
+.container {
+  @include flex;
+  @include flexCenter(column);
+  padding: 5em;
+
+  .header {
+    @include textMixins("title");
+    margin: 1em;
+  }
+  .message {
+    @include textMixins("subTitle");
+    margin: 1em;
+  }
+  .link {
+    @include textMixins("text");
+  }
+}

@@ -1,0 +1,118 @@
+// @import "../../variables/app.scss";
+// @import "../../mixins/typography.scss";
+// @import "../../themes/colorsDark.scss";
+// @import "../../mixins/mediaQuery.scss";
+// @import "../../mixins/button.scss";
+// @import "../../mixins/inputAndBackground.scss";
+// @import "../../mixins/flex.scss";
+
+// $button-types: "primary", "secondary", "icon-button";
+// $button-text-color: (
+//   "primary": "text-primary",
+//   "secondary": "text-default",
+//   "icon-button": "text-default",
+// );
+
+// $button-background-color: (
+//   "primary": "button-primary",
+//   "secondary": "button-secondary",
+//   "icon-button": "button-secondary",
+// );
+
+// $button-hover-color: (
+//   "primary": "button-primary-hover",
+//   "secondary": "button-secondary-hover",
+//   "icon-button": "button-secondary-hover",
+// );
+
+// $button-hover-text-color: (
+//   "primary": "text-primary",
+//   "secondary": "button-primary",
+//   "icon-button": "button-secondary-hover",
+// );
+
+// @mixin buttonComponentStyle($type) {
+//   @include iconColor(map_get($button-text-color, $type));
+//   .text {
+//     @include buttonText(map_get($button-text-color, $type));
+//     text-overflow: ellipsis;
+//     max-width: 100%;
+//     display: inline-block;
+//     white-space: nowrap;
+//     overflow: hidden;
+//   }
+//   &.background {
+//     @include background(map_get($button-background-color, $type), !important);
+//   }
+//   &:hover {
+//     @include background(map_get($button-hover-color, $type), !important);
+//     .text {
+//       @include color(map_get($button-hover-text-color, $type));
+//     }
+//     @include iconColor(map_get($button-hover-text-color, $type));
+//   }
+//   &.hoverEffect {
+//     &:hover {
+//       -webkit-transform: translateY(-2px);
+//       transform: translateY(-2px);
+//       transition: height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+//     }
+//   }
+// }
+
+// .filterContainer {
+//   width: 100%;
+//   :global(.#{$ns}-button-text) {
+//     @include flex(flex-start, center);
+//   }
+//   .image {
+//     @include flex(flex-start);
+//     order: 2;
+//     padding: 0px $spacing-xx-small 0px $spacing-xx-small;
+//     align-items: center;
+//   }
+// }
+
+// .container {
+//   @include buttonWrapper("none");
+//   &:global(.#{$ns}-button) {
+//     background-color: transparent !important;
+//     background-image: none !important;
+//     box-shadow: none !important;
+//     padding: 8px 8px !important;
+//   }
+//   :global(.#{$ns}-button-text) {
+//     @include flex(flex-start, center);
+//   }
+//   @each $type in $button-types {
+//     &.#{$type} {
+//       @include buttonComponentStyle($type);
+//       &:disabled {
+//         cursor: not-allowed;
+//         opacity: 0.36;
+//         @include buttonComponentStyle("secondary");
+//         &:hover {
+//           .text {
+//             @include color(map_get($button-hover-text-color, "secondary"));
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .image {
+//     @include flex(flex-start);
+//     order: 2;
+//     padding: 0px $spacing-xx-small 0px $spacing-xx-small;
+//     align-items: center;
+//   }
+//   &.left {
+//     .image {
+//       order: 1;
+//       padding-left: 0px !important;
+//       align-items: center;
+//     }
+//     .text {
+//       order: 2;
+//     }
+//   }
+// }

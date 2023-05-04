@@ -1,0 +1,44 @@
+{
+  "en-US": {
+    "playbackControl": "Playback Control",
+    "cancel": "Cancel",
+    "lockPlayer": "Lock player",
+    "unlockPlayer": "Unlock player",
+    "emptyLoadShow": "No content found for the given filters",
+    "loadShow": "Load Show",
+    "load": "Load",
+    "resume": "Resume",
+    "schedule": "Schedule",
+    "dashboard": "Playback Control",
+    "upcomingShows": "upcoming shows",
+    "seekNotAllowed": "Seeking is not allowed at the end of show",
+    "isResumed": "Previous show playback was interrupted. The show is loaded and ready to resume.",
+    "isAutoReloaded": "The show reloaded at {time}, to apply recent modifications."
+  },
+  "ta": {
+    "playbackControl": "திரைப்பட பின்னணி கட்டுப்பாடு",
+    "cancel": "ரத்து",
+    "emptyLoadShow": "உங்கள் வடிப்பான் பொருந்தும் எந்த உள்ளடக்கம் இல்லை",
+    "loadShow": "நிகழ்வு ஏற்று",
+    "load": "ஏற்று",
+    "lockPlayer": "பூட்டு பிளேயர்",
+    "unlockPlayer": "பிளேயரைத் திற",
+    "schedule": "அட்டவணை",
+    "dashboard": "பின்னணி கட்டுப்பாடு",
+    "upcomingShows": "வரவிருக்கும் நிகழ்ச்சிகள்"
+  },
+  "zh-CN": {
+    "playbackControl": "播放控制",
+    "cancel": "取消",
+    "lockPlayer": "锁定播放器",
+    "unlockPlayer": "解锁播放器",
+    "emptyLoadShow": "未找到指定过滤器的内容",
+    "loadShow": "负载显示",
+    "load": "加载",
+    "resume": "恢复",
+    "schedule": "日程",
+    "dashboard": "回放控制",
+    "upcomingShows": "即将上映的节目",
+    "seekNotAllowed": "演出结束时不允许寻找"
+  }
+}

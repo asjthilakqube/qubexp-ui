@@ -1,0 +1,42 @@
+{
+  "en-US": {
+    "storage": "Storage",
+    "available": "Available: ",
+    "unknown": "Unknown",
+    "online": "Online",
+    "failed": "Failed",
+    "degraded": "Degraded",
+    "rebuilding": "Rebuilding",
+    "suspended": "rebuild-suspended",
+    "imb": "IMB",
+    "audio": "Audio",
+    "imbStatus": "{isConnected}, {isTampered}",
+    "imbConnect": "{isConnected}",
+    "imbBattery": "{batteryStatus}%",
+    "imbTemperature": "{temperature}°C"
+  },
+  "ta": {
+    "storage": "சேமிப்பு",
+    "available": "கிடைக்கும்: ",
+    "unknown": "தெரியவில்லை",
+    "online": "நிகழ்நிலை",
+    "failed": "தோல்வி",
+    "degraded": "தாழ்த்தப்பட்டது",
+    "rebuilding": "புனரமைத்தல்",
+    "suspended": "மீண்டும் கட்டப்பட்டது-நிறுத்தி வைக்கப்பட்டது",
+    "imb": "IMB",
+    "audio": "ஆடியோ"
+  },
+  "zh-CN": {
+    "storage": "贮存",
+    "available": "可用的: ",
+    "unknown": "未知",
+    "online": "在线的",
+    "failed": "失败的",
+    "degraded": "降级",
+    "rebuilding": "重建",
+    "suspended": "重建暂停",
+    "imb": "IMB",
+    "audio": "声音的"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "en-US": {
+    "uploadFile": "Upload File",
+    "filterComponents": "Filter Components"
+  },
+  "ta": {
+    "uploadFile": "கோப்பைப் பதிவேற்றவும்",
+    "filterComponents": "வடிகட்டி கூறுகள்"
+  },
+  "zh-CN": { "uploadFile": "上传文件", "filterComponents": "过滤器组件" }
+}
