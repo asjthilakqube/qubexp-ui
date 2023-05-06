@@ -11,7 +11,7 @@ import app from "./app";
 // import schedule from "./schedule";
 // import setting from "./setting";
 // import automation from "./automation";
-// import user from "./user";
+import user from "./user";
 // import logs from "./logs";
 
 const rootReducer = combineReducers({
@@ -26,7 +26,7 @@ const rootReducer = combineReducers({
 //   schedule,
 //   setting,
 //   automation,
-//   user,
+  user,
   routing: routerReducer,
 //   logs,
 });

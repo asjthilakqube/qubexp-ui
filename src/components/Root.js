@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import App from "../App";
 // import PropTypes from "prop-types";
 import { Switch, Route, Redirect } from "react-router-dom";
-// import { connect } from "react-redux";
+import { connect } from "react-redux";
 // import path from "../constant/path";
 // import ProtectedRoute from "./auth/ProtectedRoute";
 import Login from "./auth/Login";
@@ -37,55 +37,54 @@ import Login from "./auth/Login";
 import ErrorBoundary from "./ErrorBoundary";
 // import Layout from "./common/Layout";
 
-// import bindDispatch from "../utils/actions";
+import bindDispatch from "../utils/actions";
 // import BaseRepository from "../repositories/BaseRepository";
-// import config from "../repositories/config";
+import config from "../repositories/config";
 // import { initAuth } from "../repositories";
 // import { SCOPES, SCOPE_ACTIONS } from "../constant/user";
 
 // const redirectFunction = (redirectionPath) => <Redirect to={redirectionPath} replace />;
 
 class Root extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       authChecked: false,
-//     };
-//   }
+  constructor(props) {
+    super(props);
+    this.state = {
+      authChecked: false,
+    };
+  }
 
-//   componentDidMount() {
-//     try {
-//       const auth = JSON.parse(localStorage.getItem("auth"));
-//       if (auth) this.validate(auth);
-//       else this.invalidate();
-//     } catch {
-//       // eslint-disable-next-line no-console
-//       console.log("Local Storage Error");
-//     }
-//   }
+  componentDidMount() {
+    try {
+      const auth = JSON.parse(localStorage.getItem("auth"));
+      if (auth) this.validate(auth);
+      else this.invalidate();
+    } catch {
+      // eslint-disable-next-line no-console
+      console.log("Local Storage Error");
+    }
+  }
 
-//   validate = (auth) => {
-//     const { actions } = this.props;
+  validate = (auth) => {
+    const { actions } = this.props;
+    const base = new BaseRepository(config.IAM_URL, auth);
+    base
+      .validateAuth()
+      .then((response) => {
+        initAuth(auth);
+        actions.loginUser({ loggedIn: true, auth, ...response.data });
+        this.setState({ authChecked: true });
+      })
+      .catch(this.invalidate);
+  };
 
-//     const base = new BaseRepository(config.IAM_URL, auth);
-//     base
-//       .validateAuth()
-//       .then((response) => {
-//         initAuth(auth);
-//         actions.loginUser({ loggedIn: true, auth, ...response.data });
-//         this.setState({ authChecked: true });
-//       })
-//       .catch(this.invalidate);
-//   };
-
-//   invalidate = () => {
-//     localStorage.clear();
-//     this.setState({ authChecked: true });
-//   };
+  invalidate = () => {
+    localStorage.clear();
+    this.setState({ authChecked: true });
+  };
 
   render() {
-    // const { authChecked } = this.state;
-    // if (!authChecked) return null;
+    const { authChecked } = this.state;
+    if (!authChecked) return null;
     return (
         // <App/>
       <ErrorBoundary>
