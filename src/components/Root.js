@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import App from "../App";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 // import path from "../constant/path";
@@ -38,9 +37,9 @@ import ErrorBoundary from "./ErrorBoundary";
 // import Layout from "./common/Layout";
 
 import bindDispatch from "../utils/actions";
-// import BaseRepository from "../repositories/BaseRepository";
+import BaseRepository from "../repositories/BaseRepository";
 import config from "../repositories/config";
-// import { initAuth } from "../repositories";
+import { initAuth } from "../repositories";
 // import { SCOPES, SCOPE_ACTIONS } from "../constant/user";
 
 // const redirectFunction = (redirectionPath) => <Redirect to={redirectionPath} replace />;
@@ -86,7 +85,6 @@ class Root extends Component {
     const { authChecked } = this.state;
     if (!authChecked) return null;
     return (
-        // <App/>
       <ErrorBoundary>
         <Switch>
           <Route exact path="/" render={() => <Redirect to="/login" />} />
@@ -241,10 +239,10 @@ class Root extends Component {
   }
 }
 
-// Root.propTypes = {
-//   actions: PropTypes.instanceOf(Object).isRequired,
-// };
+Root.propTypes = {
+  actions: PropTypes.instanceOf(Object).isRequired,
+};
 
-// export default connect(null, bindDispatch)(Root);
+export default connect(null, bindDispatch)(Root);
 
-export default Root;
+// export default Root;

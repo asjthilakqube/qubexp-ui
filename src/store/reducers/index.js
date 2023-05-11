@@ -9,7 +9,7 @@ import app from "./app";
 // import ingestBookmarks from "./ingestBookmarks";
 // import cue from "./cue";
 // import schedule from "./schedule";
-// import setting from "./setting";
+import setting from "./setting";
 // import automation from "./automation";
 import user from "./user";
 // import logs from "./logs";
@@ -24,7 +24,7 @@ const rootReducer = combineReducers({
 //   shows,
 //   cue,
 //   schedule,
-//   setting,
+  setting,
 //   automation,
   user,
   routing: routerReducer,

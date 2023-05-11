@@ -1,7 +1,7 @@
 import _ from "lodash";
 import * as Types from "../types/app";
 import { history } from "../../store";
-import { getOnGoingIngestList } from "./contentAndKeys";
+// import { getOnGoingIngestList } from "./contentAndKeys";
 import bluePrintToast from "../../utils/toast";
 import moment from "../../utils/moment";
 import { defaultErrorMessage } from "../../constant/app";
@@ -66,7 +66,7 @@ const displaySuccessToast = (message = "Succeed", values = {}) => (dispatch) =>
 const displayFailedToast = (message = "Internal Error", values = {}) => (dispatch) =>
   dispatch(showToast([{ message, values }]));
 
-const initializeRightNavActions = () => (dispatch) => dispatch(getOnGoingIngestList());
+// const initializeRightNavActions = () => (dispatch) => dispatch(getOnGoingIngestList());
 
 const handleLoaderType = (loaderType, isFinished = false) => (dispatch) => {
   const newLoaderTypes = isFinished ? null : loaderType;
@@ -134,7 +134,7 @@ export {
   changeSelectedLanguage,
   errorHandler,
   handleError,
-  initializeRightNavActions,
+  // initializeRightNavActions,
   setCurrentLoaderTypes,
   reset,
   updateTimer,
